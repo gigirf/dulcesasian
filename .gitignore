@@ -1,33 +1,105 @@
-# Gradle files
-.gradle/
-build/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
-
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>SweetAsianTreats</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<script src="js/jqery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+<!--Estilos-->
+<style> 
+.jumbotron {
+	background-color: #5E74A1;
+	color: #ffffff;
+	padding:100px 25px;
+	font-family: sans-serif;
+	text-align: center
+}
+.container-fluid {
+	padding: 40px 50px;
+}
+.bg-grey {
+	background-color: #DCDCDC;
+}
+.panel {
+	border: 1px solid #EDC45B;
+}
+.panel:hover {
+	box-shadow: 3px 7px 30px #008000;
+}
+</style>
+</head>
+<body>
+	<header>
+		<div class="jumbotron">
+			<h1>SweetAsianTreats</h1>
+			<p>Todo en postres Asiaticos llenos de dulzuras</p>
+			<form class="form-inline">
+				<input type="email" size="50" placeholder="Direccion de correo">
+				<button type="button">Suscribirse</button>
+			</form>
+		</div>
+	</header>
+<!--Seccion Acerca de-->
+	<section class="container-fluid">
+		<div class="row">
+			<div class="col-sm-8">
+			    <h2>SweetAsianTreats</h2>
+	            <H4>Dar a conocer y promocionar los postres asiáticos, destacando su sabor presentación y autenticidad para atraer a un publico interesado en la cocina asiática</h4>
+				<p>Menú en línea, pedidos en línea, galerías de imágenes, diseño atractivo, información de contacto</p>
+				<button class="btn btn-default btn-lg">Más información</button>
+			</div>
+			<div class="col-sm-4">
+				<img src="imagenes/acerca_de.png" Alt="Acerca de">
+			</div>
+		</div>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://youtu.be/QSJ75XpJMxA?si=RpJnOx5XzuKNwq3o" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--Seccion Nuestros valores-->
+	<section class="container-fluid bg-grey">
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="imagenes/valores.png" Alt="Valores">
+			</div>
+			<div class="col-sm-8">
+				<h2>Nuestros valores</h2>
+				<h4><strong>MISIÓN:</strong>Nuestra mision es llevar la dulzura y la autenticidad de los postres asiaticos al mundo.Nos esforzamos por compartir la riqueza de la tradicion culinaria asiatica, presentando a nuestros clientes experiencias culinarias que van mas alla de lo ordinario.</h4>
+				<p><strong>VISIÓN:</strong>Nuestra vision es convertirnos en el destino de referencia para los amantes de los postres asiaticos en todo el mundo. Buscamos inspirar a las personas a explorar y apreciar la diversidad de los sabores asiaticos.</p>
+				<p><strong>VALORES:</strong>Autenticidad,Calidad,Respeto Cultural,Innovacion,Pasion por la comida,Experiencia del cliente,Diversidad,Creatividad</p>
+			</div>
+		</div>
+	</section>
+	<!--Seccion Productos-->
+	<section class="container-fluid text-center">
+		<h2>NUESTROS PRODUCTOS</h2>
+		<h4>Lo que ofrecemos</h4>
+		<br>
+		<div class="row">
+			<!--Imagen 1-->
+			<div class="col-sm-4">
+				<img src="imagenes/imagen1.png" Alt="Imagen1">
+				<h4>PASTEL</h4>
+				<p>Lo mejor de postres ricos.</p>
+			</div>
+	     		<!--Imagen 2-->
+			<div class="col-sm-4">
+				<img src="imagenes/imagen2.png" alt="Imagen2">
+				<h4>Camelado</h4>
+				<p>dulces bebidas</p>
+			</div>
+			<!--Imagen 3-->
+			<div class="col-sm-4">
+				<img src="imagenes/imagen3.png" alt="Imagen3">
+				<h4>DULCES JAPONESES</h4>
+				<p>Muchos diseños y colores.</p>
+				</div>      
+			</div>
+		</div>
+	</section>
+</body>
+</html>	
